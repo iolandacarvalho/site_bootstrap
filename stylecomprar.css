@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.custom-nav .nav-link {
+    color: white; /* Cor do texto */
+    background-color: #F28705; /* Cor de fundo */
+}
+
+.custom-nav .nav-link.active {
+    color: white;
+    background-color: #A63F03; /* Cor de fundo quando ativo */
+}
+
+.custom-nav .nav-link:hover {
+    color: black;
+    /* background-color: Cor de fundo ao passar o mouse */
+}
+#cabecalhologo
+{
+    width: 90px;
+    height: 90px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+#cabecalhologo img
+{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#logo
+{
+    margin-top: 12%;
+    margin-left: 160px;
+    margin-bottom: auto;
+    display: block;
+}
+
+#logoimg
+{
+    height: 100%;
+    display: flex;
+    
+}
+
+#cabecalho
+{
+    background-color: #F28705;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#logocalifornia
+{
+    width: 900px;
+    height: 603px;
+    border: 4px solid #467302;
+    border-radius: 20%;
+    margin-top: 4%;
+    margin-left: 500px;
+    margin-bottom: auto;
+    display: block;
+}
+#agradecimento
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 100px;
+    color: #A63F03;
+    margin-left: 22%;
+}
+#voltar
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #A63F03;
+    margin-left: 48%;
+}

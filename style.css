@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 .custom-nav .nav-link {
     color: white; /* Cor do texto */
@@ -92,4 +93,67 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-size: 48px;
 
+}
+
+.nav-link {
+    color: #6b2d09; /* Cor dos links */
+}
+
+.nav-link:hover {
+    color: #A63F03; /* Cor ao passar o mouse */
+}
+
+.dropdown-item {
+    color: #6b2d09; /* Cor dos itens do dropdown */
+}
+
+.dropdown-item:hover {
+    background-color: #A63F03; /* Cor de fundo ao passar o mouse no dropdown */
+}
+.navbar {
+    background-color: #343a40; /* Altere para a cor desejada */
+}
+.nav-pills .nav-link.active
+{
+    background-color: #A63F03;
+}
+
+#scroll
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    width: 40%;
+    height: 30%;
+}
+#titulohamburguer
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+#titulobebida
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+    margin-top: 14px;
+    margin-left: 100px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#cards
+{
+    margin-left: 100px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
