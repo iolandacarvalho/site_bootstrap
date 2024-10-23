@@ -3,23 +3,21 @@
 
 .custom-nav .nav-link {
     color: white; /* Cor do texto */
-    background-color: #A63F03; /* Cor de fundo */
+    background-color: black; /* Cor de fundo */
 }
 
 .custom-nav .nav-link.active {
     color: white;
-    background-color: #f7a33d; /* Cor de fundo quando ativo */
+    background-color: black; /* Cor de fundo quando ativo */
 }
 
 .custom-nav .nav-link:hover {
-    color: #f7a33d;
+    color: grey;
     /* background-color: Cor de fundo ao passar o mouse */
 }
 
-
-
 body {
-    background-image: url(imgs/2.webp);
+    background-image: url(imgs/fundopreto.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-attachment: fixed;
@@ -44,57 +42,29 @@ body {
     height: 100%;
 }
 
+#logo img
+{
+    width: 250px;
+    height: 250px;
+}
 #logo
 {
-    margin-top: 12%;
-    margin-left: 160px;
-    margin-bottom: auto;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#logoimg
-{
-    height: 300%;
-    display: flex;
-    
-}
+
 
 #cabecalho
 {
-    background-color: #A63F03;
+    background-color: black;
     padding-top: 0;
     padding-bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
-}
-
-#quemsomos
-{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    overflow: hidden;
-    padding: 10px;
-    width: 40%;
-    height: 700px;
-    margin-top: 100px;
-    margin-left: 100px;
-    border: 2px solid #467302;
-    background-color: #a1c971b9;
-    border-radius: 10px;
-}
-#quemsomos p
-{
-    font-size: 22px;
-    line-height: 1.4;
-    font-family: "Raleway", sans-serif;
-}
-#quemsomos h1
-{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 48px;
-
 }
 
 .nav-link {
@@ -117,7 +87,16 @@ body {
 }
 .nav-pills .nav-link.active
 {
-    background-color: #A63F03;
+    background-color: #fdb761;
+}
+
+#sobreaempresa
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-right: 50px;
 }
 
 #scroll
@@ -126,7 +105,7 @@ body {
     margin-bottom: 30px;
     margin-left: 100px;
     width: 40%;
-    height: 30%;
+    height: 750px;
 }
 #titulohamburguer
 {
@@ -149,8 +128,6 @@ body {
     justify-content: center;
 }
 
-
-
 #cards
 {
     margin-left: 100px;
@@ -158,4 +135,21 @@ body {
     display: flex;
     justify-content: center;
     gap: 50px;
+}
+#carouselExampleAutoplaying
+{
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    width: 60%;;
+}
+
+.conteudo
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    width: 40%;
+    height: 750px;
+    overflow: scroll;
 }
