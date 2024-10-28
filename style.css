@@ -94,22 +94,46 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
-    margin-right: 50px;
-}
-
-.conteudotxt
-{
-    margin-top: 60px;
-    margin-left: 50px;
-    width: 50%;
-    height: 750px;
-    overflow: scroll;
+    margin-top: 4%;
+    /* gap: 50px;
+    margin-right: 50px; */
 }
 .conteudoimgs
 {
-    width: 50%;
+    width: 60%;
 }
+
+.txt
+{
+    margin-top: 4%;
+    margin-left: 4%;
+    width: 30%;
+    height: 750px;
+    color: white;
+    text-align: justify;
+}
+.txt h1
+{
+    font-family: "Bebas Neue", sans-serif;
+}
+.conteudotxt
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    gap: 50px;
+}
+.seta
+{
+    width: 0px;
+    margin-right: 18px;
+}
+.seta img
+{
+    width: 100px;
+}
+
 .pag
 {   
     margin-top: 1%;
@@ -167,5 +191,33 @@ body {
     border: #fdb761;
 }
 
-/* SAIBA MAIS */
+/* CONTATO */
+
+.formulario 
+{
+    display:;
+    justify-content: center;
+}
+
+.contatoformulario
+{
+    margin-top: 2%;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+
+}
+.mb-3
+{
+    width: 50%;
+}
+.form-label
+{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 38px;
+
+}
 

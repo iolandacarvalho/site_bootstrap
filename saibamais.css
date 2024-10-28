@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 .custom-nav .nav-link {
     color: white; /* Cor do texto */
     background-color: black; /* Cor de fundo */
@@ -53,6 +55,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 8%;
+}
+.img-fluid.rounded-start
+{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 1000px;
+    border: #fdb761 3px;
+    border-radius: 3%;
+}
+.card.mb-3
+{
+    width: 1000px;
+}
+.carde h1
+{
+    font-family: "Bebas Neue", sans-serif;
+}
+.carde h2
+{
+    font-family: "Bebas Neue", sans-serif;
 }
 .card
 {
@@ -65,5 +89,18 @@ body {
 {
     background-color: #fdb761;
     border: #fdb761;
+}
+
+.pag
+{   
+    margin-top: 8%;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.breadcrumb-item.active
+{
+    color: white;
 }
 
