@@ -136,13 +136,16 @@ body {
 
 .pag
 {   
-    margin-top: 1%;
-    margin-right: 1%;
+    margin-top: 4px;
+    margin-right: 2%;
     display: flex;
-    align-items: center;
     justify-content: right;
 }
 .breadcrumb-item.active
+{
+    color: #a4a7ac;
+}
+.breadcrumb-item a
 {
     color: white;
 }
@@ -193,12 +196,6 @@ body {
 
 /* CONTATO */
 
-.formulario 
-{
-    display:;
-    justify-content: center;
-}
-
 .contatoformulario
 {
     margin-top: 2%;
@@ -207,17 +204,16 @@ body {
     font-size: 38px;
     display: flex;
     justify-content: center;
-
 }
-.mb-3
+.formulario
 {
-    width: 50%;
-}
-.form-label
-{
+    margin-top: 2%;
     color: white;
     font-family: "Bebas Neue", sans-serif;
     font-size: 38px;
-
+    justify-content: center;
+    width: 700px;
+    display: block;
+    justify-self: center;
+    text-align: center;
 }
-

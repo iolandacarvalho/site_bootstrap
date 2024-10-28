@@ -93,14 +93,16 @@ body {
 
 .pag
 {   
-    margin-top: 8%;
-    margin-right: 1%;
+    margin-top: 4px;
+    margin-right: 2%;
     display: flex;
-    align-items: center;
     justify-content: right;
 }
 .breadcrumb-item.active
 {
+    color: #a4a7ac;
+}
+.breadcrumb-item a
+{
     color: white;
 }
-
