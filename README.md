@@ -29,9 +29,14 @@ Há muitas melhoras necessárias no site. Esse foi um modelo bem simples que con
 
 ## Conclusão:
 Por fim, esse foi o resultado do meu site, depois de muitas tentativas e erros. Consegui chegar em um resultado final que me agradou ao menos um pouco. <br>
+<!--
 <img src="prints_site/home.png" alt="página home">
 <img src="prints_site/quemsomos.png" alt="página quem somos">
 <img src="prints_site/produtos.png" alt="página produtos">
 <img src="prints_site/compra.png" alt="página compra">
 <img src="prints_site/saibamais.png" alt="página saiba mais">
 <img src="prints_site/contatos.png" alt="página saiba mais">
+-->
+
+![sitehamburgueria](https://github.com/user-attachments/assets/68c8afb7-9004-40e0-a4dc-7eedad54c1cd)
+
